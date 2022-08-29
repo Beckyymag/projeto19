@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./vendor/owl/css/owl.css">
+    <link rel="stylesheet" href="./vendor/fontawesome/fontawesome.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>jQuery</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="assets/images/unicjoiaslogo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home
+                            <span class="sr-only">(Atual)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html" >Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-modal-open" href="about.html" rel="sobre">Sobre nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-modal-open" href="contact.html" rel="contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="caption">
+                        <h2>Para quem é unic.</h2>
+                        <div class="line-dec"></div>
+                        <p>Para mulheres que amam joias únicas. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="featured" class="featured-items">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <div class="line-dec"></div>
+                        <h1>Destaques <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gem" viewBox="0 0 16 16">
+                            <path d="M3.1.7a.5.5 0 0 1 .4-.2h9a.5.5 0 0 1 .4.2l2.976 3.974c.149.185.156.45.01.644L8.4 15.3a.5.5 0 0 1-.8 0L.1 5.3a.5.5 0 0 1 0-.6l3-4zm11.386 3.785-1.806-2.41-.776 2.413 2.582-.003zm-3.633.004.961-2.989H4.186l.963 2.995 5.704-.006zM5.47 5.495 8 13.366l2.532-7.876-5.062.005zm-1.371-.999-.78-2.422-1.818 2.425 2.598-.003zM1.499 5.5l5.113 6.817-2.192-6.82L1.5 5.5zm7.889 6.817 5.123-6.83-2.928.002-2.195 6.828z"/>
+                        </svg></h1>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="featured-item">
+                            <img src="assets/images/JOIA1.png" alt="Item 1">
+                            <h4>Anel Rosa prata <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gem" viewBox="0 0 16 16">
+                                <path d="M3.1.7a.5.5 0 0 1 .4-.2h9a.5.5 0 0 1 .4.2l2.976 3.974c.149.185.156.45.01.644L8.4 15.3a.5.5 0 0 1-.8 0L.1 5.3a.5.5 0 0 1 0-.6l3-4zm11.386 3.785-1.806-2.41-.776 2.413 2.582-.003zm-3.633.004.961-2.989H4.186l.963 2.995 5.704-.006zM5.47 5.495 8 13.366l2.532-7.876-5.062.005zm-1.371-.999-.78-2.422-1.818 2.425 2.598-.003zM1.499 5.5l5.113 6.817-2.192-6.82L1.5 5.5zm7.889 6.817 5.123-6.83-2.928.002-2.195 6.828z"/>
+                            </svg></h4>
+                            <h6>R$ 45,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                            
+                        </div>
+                        <div class="featured-item">
+                            <img src="assets/images/JOIA2.png" alt="Item 2">
+                            <h4>Conjunto Casual<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gem" viewBox="0 0 16 16">
+                                <path d="M3.1.7a.5.5 0 0 1 .4-.2h9a.5.5 0 0 1 .4.2l2.976 3.974c.149.185.156.45.01.644L8.4 15.3a.5.5 0 0 1-.8 0L.1 5.3a.5.5 0 0 1 0-.6l3-4zm11.386 3.785-1.806-2.41-.776 2.413 2.582-.003zm-3.633.004.961-2.989H4.186l.963 2.995 5.704-.006zM5.47 5.495 8 13.366l2.532-7.876-5.062.005zm-1.371-.999-.78-2.422-1.818 2.425 2.598-.003zM1.499 5.5l5.113 6.817-2.192-6.82L1.5 5.5zm7.889 6.817 5.123-6.83-2.928.002-2.195 6.828z"/>
+                            </svg></h4>
+                            <h6>R$ 100,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="assets/images/JOIA3.png" alt="Item 3">
+                            <h4>Colar Círculo <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gem" viewBox="0 0 16 16">
+                                <path d="M3.1.7a.5.5 0 0 1 .4-.2h9a.5.5 0 0 1 .4.2l2.976 3.974c.149.185.156.45.01.644L8.4 15.3a.5.5 0 0 1-.8 0L.1 5.3a.5.5 0 0 1 0-.6l3-4zm11.386 3.785-1.806-2.41-.776 2.413 2.582-.003zm-3.633.004.961-2.989H4.186l.963 2.995 5.704-.006zM5.47 5.495 8 13.366l2.532-7.876-5.062.005zm-1.371-.999-.78-2.422-1.818 2.425 2.598-.003zM1.499 5.5l5.113 6.817-2.192-6.82L1.5 5.5zm7.889 6.817 5.123-6.83-2.928.002-2.195 6.828z"/>
+                            </svg></h4>
+                            <h6>R$ 50,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="assets/images/JOIA4.png" alt="Item 4">
+                            <h4>Colar coração</h4>
+                            <h6>R$ 30,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="assets/images/JOIA5.png" alt="Item 5">
+                            <h4>Colar estrelas brilhantes</h4>
+                            <h6>R$ 40,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="assets/images/JOIA6.png" alt="Item 6">
+                            <h4>Pulseira minimal</h4>
+                            <h6>R$ 30,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="assets/images/JOIA7.png" alt="Item 7">
+                            <h4>Conjunto praia</h4>
+                            <h6>R$ 50,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="assets/images/JOIA8.png" alt="Item 8">
+                            <h4>Colar brilhantina</h4>
+                            <h6>R$ 200,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="featured-item">
+                            <img src="assets/images/JOIA9.png" alt="Item 9">
+                            <h4>Conjunto amar</h4>
+                            <h6>R$ 80,00</h6>
+                            <a href="single-product.html">
+                                Comprar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    
+    <div class="container">
+    </div>
+    <section class="bg-dark text-center p-5 mt-4">
+        <div class="container p-3">
+            <h3 class="text-white">Deixe o seu e-mail</h3>
+            <form action="#" method="Post">
+                <input type="text" name="text" placeholder="Deixe o seu e-mail aqui">
+                <button type="button" class="btn btn-default">Inscreva-se<i class="fa fa-envelope"></i></button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p> Coleção 2022</p>
+    </footer>   
+    
+    
+    
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="logo">
+                        <img src="assets/images/finallogo.png" alt="">
+                    </div>
+                </div>
+                
+                
+                
+                
+                
+                <div class="col-md-12">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Ajuda</a></li>
+                            <li><a href="#">Política de privacidade</a></li>
+                            <li><a href="#">Quem somos nós?</a></li>
+                            <li><a href="#">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="social-icons">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="sub-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright-text">
+                        <p>Ünic Joias &copy; Todos os direitos reservados
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <!-- Modal -->
+        <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div id="contato" class="visually-hidden">
+        <form action="" class="form">
+            
+            <div class="mb-3">
+                <label for="nome" class="form-label"> Nome</label>
+                <input type="text" name="nome" id="nome" class="form-control" placeholder="Digite seu nome"
+                aria-describedby="helpnome">
+                <small id="helpNome" class="text-muted">
+                    Digite um nome válido
+                </small>
+            </div>
+        </form>
+        
+    </div>
+    
+    <div id="sobre" class="visually-hidden">
+        <p>
+            hdvjvdsvdvssfbifnsbd~ubsfihsifidsufvudbfbiyvfbbfudnfvhyvdjnwyguhiwgduwgduwdbugbikyhdvbBDHD
+            FBJVFBSKFVBEUFIYEHFUÇUGFUHUGFRUEBFUNEKNFBEJGHHJGHDHJHJGHUHBJKFHBJKHGBHJIKRHJHJJNRHBHJRJJKJ
+        </p>
+    </div>
+    
+    
+    
+    
+    
+    <script src="./vendor/jquery/jquery-3.6.0.min.js"></script>
+    <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./vendor/owl/js/owl.js"></script>
+    <script src="./js/custom.js"></script>
+</body>
+</html>
